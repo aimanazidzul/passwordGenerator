@@ -19,3 +19,6 @@ function generateButton() {
     option2El.textContent+=characters[password2Index]
   }
 }
+
+const genBtn=document.getElementById("generateButton")
+genBtn.addEventListener("click",generateButton)
